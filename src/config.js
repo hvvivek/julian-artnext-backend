@@ -9,5 +9,10 @@ module.exports = {
     host: 'localhost',
     dialect: 'sqlite',
     storage: 'database.sqlite'
+  },
+  production: {
+    host: 'localhost',
+    dialect: 'sqlite',
+    storage: 'database.sqlite'
   }
 }
