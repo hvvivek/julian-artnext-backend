@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+*log
+*lock
+test/unit/coverage
+test/e2e/reports
+src/config.js

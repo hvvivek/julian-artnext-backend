@@ -138,7 +138,8 @@ function (email, password, done) {
 }))
 
 // Load compiled production client
-const clientDir = path.join(__dirname, '..', '..', 'client', 'dist')
+// const clientDir = path.join(__dirname, '..', '..', 'client', 'dist')
+const clientDir = path.join(__dirname, '..', 'client', 'dist')
 app.use(express.static(clientDir))
 
 // const filesDir = path.join(__dirname, 'files')
