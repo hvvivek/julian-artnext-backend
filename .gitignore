@@ -5,14 +5,8 @@
 **/node_modules
 
 # Secrets
-app/config/keys.json
 
 # Temporary Files
 app/files
 npm-debug.log
 npm-debug.log.*
-
-# Server files
-server/files
-server/yarn.lock
-client/yarn.lock
