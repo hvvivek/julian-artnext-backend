@@ -13,7 +13,7 @@ const config = require('../config')
  * Get port from environment and store in Express.
  */
 
-let port = normalizePort(process.env.PORT || normalizePort(config.port))
+let port = process.env.PORT || config.port
 app.set('port', port)
 
 /**
@@ -76,6 +76,7 @@ function onError (error) {
       process.exit(1)
       break
     default:
+      console.log("Don't know the error")
       throw error
   }
 }
