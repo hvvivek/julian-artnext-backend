@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node app/bin/www",
+    "start": "node src/bin/www",
     "lint": "eslint --ext .js src"
   },
   "repository": {
