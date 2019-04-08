@@ -4,7 +4,7 @@ module.exports = {
   filesDir: path.join(__dirname, '..', 'files'),
   ip: 'localhost',
   secretKey: 'csiro-versus',
-  port: 3000,
+  port: process.env.PORT || 3000,
   development: {
     host: 'localhost',
     dialect: 'sqlite',
